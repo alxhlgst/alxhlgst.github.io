@@ -25,19 +25,18 @@ body{
 	border-top:1px LightGray solid;
 	border-bottom:1px LightGray solid;
 	margin:auto;
-	margin-bottom:10px;
+	margin-bottom:0px;
 	float:left;
 	clear: left;
 	width:100%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left:15px;
-	padding-right: 0 px;
+	padding-right: 10 px;
 	text-align:left;
 	min-height:30px;
 	line-height:30px;
 	font-size:20pt;
-	background-color: Lavender;
 }
 span{
 	display:inline-block;
