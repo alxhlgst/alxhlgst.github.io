@@ -18,6 +18,8 @@
 	font-size: 16pt;
 	line-height: 30px;
 	overflow:hidden;
+	
+	text-shadow: 0px 0px 3px white,1px 1px white, -1px -1px white,1px -1px white,-1px 1px white;
 }
 #content p{
 	margin:0px;
