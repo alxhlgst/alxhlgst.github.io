@@ -1,15 +1,25 @@
-body{
+#aboutbody{
 	padding:0px;
 	margin:0px;
-	background-image: url("background.jpg");
+	background-image: url("Cropbackground.jpg");
+	background-repeat:no-repeat;
 }
 #pageOptions{
 	list-style-type: none;
 	padding: 0px;
-	
-	
-	
-	
+}
+
+#content{
+	float:right;
+	padding:5px;
+	width: 600px;
+	padding-right:90px;
+	font-family: "Lucida Console", monospace;
+	font-size: 16pt;
+	line-height: 30px;
+	background-color: lavender;
+
+	overflow:hidden;
 }
 #sidebar{
 	
@@ -32,12 +42,23 @@ body{
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left:15px;
-	padding-right: 10 px;
+	padding-right: 10px;
 	text-align:left;
 	min-height:30px;
 	line-height:30px;
-	font-size:20pt;
+	font-size:22pt;
 	font-family: "Lucida Console", monospace;
+	
+}
+a{
+	color:inherit;
+}
+.active{
+	background-color: lavender;
+}
+.tab:hover{
+	background-color: lavender;
+	border-bottom: 1px gray solid;
 }
 span{
 	display:inline-block;
@@ -46,5 +67,7 @@ span{
 }
 h2{
 	margin:10px;
+	font-size:30pt;
+	font-family: "Trebuchet MS", Sans-Serif;
 }
 
