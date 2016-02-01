@@ -10,10 +10,10 @@
 }
 
 #content{
-	float:right;
+	right:0px;
+	position:absolute;
 	padding:5px;
-	width: 600px;
-	padding-right:90px;
+	width: 40%;
 	font-family: "Lucida Console", monospace;
 	font-size: 16pt;
 	line-height: 30px;
@@ -21,9 +21,12 @@
 
 	overflow:hidden;
 }
+#content p{
+	margin-right:20%;
+}
 #sidebar{
 	
-	float: left;
+	left:0;
 	padding: 0px;
 	position: absolute;
 	
