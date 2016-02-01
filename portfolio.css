@@ -12,17 +12,18 @@
 #content{
 	right:0px;
 	position:absolute;
-	padding:5px;
+	
 	width: 40%;
 	font-family: "Lucida Console", monospace;
 	font-size: 16pt;
 	line-height: 30px;
-	background-color: lavender;
-
 	overflow:hidden;
 }
 #content p{
+	margin:0px;
 	margin-right:20%;
+	padding:5px;
+	
 }
 #sidebar{
 	
