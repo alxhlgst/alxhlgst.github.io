@@ -45,6 +45,9 @@ h3{
 	width:750px;
 	z-index:-1;
 }
+#resumediv{
+	overflow:scroll;
+}
 .projectpic, .projectcontent{
 	float:left;
 }
