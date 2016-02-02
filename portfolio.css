@@ -3,6 +3,7 @@ body{
 	margin:0px;
 	background-image: url("plainbackground.jpg");
 	background-repeat:no-repeat;
+	overflow-x:scroll;
 }
 #aboutbody{
 	background-image: url("Cropbackground.jpg");
@@ -45,10 +46,7 @@ h3{
 	width:750px;
 	z-index:-1;
 }
-#resumediv{
-	overflow:scroll;
-	float:left;
-}
+
 .projectpic, .projectcontent{
 	float:left;
 }
