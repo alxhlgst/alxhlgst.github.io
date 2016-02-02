@@ -16,9 +16,11 @@ h3{
 }
 .aside{
 	width: 40%;
+	top: 60px;
 }
 .center{
 	width:62%;
+	top:60px;
 }
 
 .content{
@@ -43,10 +45,31 @@ h3{
 	width:750px;
 	z-index:-1;
 }
+.projectpic, .projectcontent{
+	float:left;
+}
+.projectcontent{
+	width:60%;
+	padding:0px;
+}
+.projectcontent:hover{
+	background-color:lavender;
+	overflow:hidden;
+}
+.projecttext{
+	text-align:center;
+}
+.project{
+	overflow:hidden;
+	clear:right;
+	max-height:270px;
+}
 #sidebar{
 	top:50px;
 	left:0;
 	padding: 0px;
+	margin-right:0px;
+	width:160px;
 	position: absolute;
 	
 	height: 100%;
@@ -86,7 +109,16 @@ span{
 	vertical-align:middle;
 	line-height:normal;
 }
-h2{
+.projecttitle, .projectsubtitle, .projecttext{
+	margin:5px;
+}
+.projecttitle{
+	text-align:center;
+}
+.projectsubtitle{
+	text-align:center;
+}
+#name{
 	left:0px;
 	position:absolute;
 	margin:10px;
@@ -94,4 +126,11 @@ h2{
 	font-family: "Trebuchet MS", Sans-Serif;
 	z-index: 1;
 }
-
+#container{
+	overflow:hidden;
+	float:left;
+	position:fixed;
+	height:100%;
+	width:300px;
+	
+}
