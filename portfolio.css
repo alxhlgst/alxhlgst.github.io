@@ -47,6 +47,7 @@ h3{
 }
 #resumediv{
 	overflow:scroll;
+	float:left;
 }
 .projectpic, .projectcontent{
 	float:left;
