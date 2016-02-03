@@ -129,8 +129,9 @@ span{
 	position:absolute;
 	margin:10px;
 	font-size:30pt;
-	font-family: "Trebuchet MS", Sans-Serif;
+	font-family: "High Tower Text", Sans-Serif;
 	z-index: 1;
+	
 }
 #container{
 	overflow:hidden;
