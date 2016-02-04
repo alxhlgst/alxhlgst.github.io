@@ -29,8 +29,8 @@ h3{
 	position:absolute;
 	
 	
-	font-family: "Lucida Console", monospace;
-	font-size: 16pt;
+	font-family: "High Tower Text", Sans-Serif;
+	font-size: 18pt;
 	line-height: 35px;
 	overflow:hidden;
 	
@@ -59,18 +59,32 @@ h3{
 	width:60%;
 	padding:0px;
 }
-.projectcontent:hover{
+.linkdiv:hover{
 	background-color:lavender;
-	overflow:hidden;
+	border-bottom: 1px gray solid;
 }
 .projecttext{
-	text-align:center;
+	text-align:left;
 }
 .project{
 	overflow:hidden;
 	clear:right;
 	max-height:270px;
+	padding-bottom:20px;
+	margin-top:5px;
+	
 }
+.linkdiv{
+	padding:10px;
+	top:0px;
+	left:0px;
+	width:80%;
+	border-radius:5px;
+	border-bottom: 1px LightGray solid;
+	overflow:hidden;
+	
+}
+
 #sidebar{
 	top:50px;
 	left:0;
@@ -98,7 +112,7 @@ h3{
 	min-height:30px;
 	line-height:30px;
 	font-size:22pt;
-	font-family: "Lucida Console", monospace;
+	font-family: "High Tower Text", Sans-Serif;
 	
 }
 a{
@@ -120,10 +134,12 @@ span{
 	margin:5px;
 }
 .projecttitle{
-	text-align:center;
+	text-align:left;
+	font-size:24pt;
 }
 .projectsubtitle{
-	text-align:center;
+	text-align:left;
+	font-size:18pt;
 }
 #name{
 	left:0px;
