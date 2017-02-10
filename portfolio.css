@@ -23,7 +23,10 @@ h3{
 	width:62%;
 	top:60px;
 }
-
+.left{
+	top:60px;
+	
+}
 .content{
 	right:0px;
 	position:absolute;
@@ -74,6 +77,14 @@ h3{
 	margin-top:5px;
 	
 }
+.portfolio{
+	overflow:hidden;
+	clear:right;
+	padding-bottom:20px;
+	margin-top:5px;
+	
+}
+
 .linkdiv{
 	padding:10px;
 	top:0px;
