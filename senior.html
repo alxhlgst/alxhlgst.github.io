@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Portfolio</title>
+    <title>Senior Year</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class = "navbar-brand" href="#" style = "width:200px;">
+				<a class = "navbar-brand" href="honors.html" style = "width:195px;">
 					<span>Honors Portfolio</span>
 				</a>
 				
@@ -50,8 +50,15 @@
 	</div>
 	<div class="jumbotron">
 		<div class=container>
-			<div class = "page-header">
-				<h1> Senior Year</h1>
+			<div class="row">
+				<div class="col-md-9">
+					<div class = "page-header">
+						<h1> Senior Year</h1>
+					</div>
+				</div>
+				<div class = "col-md-3"	>
+					<img src="Usability.jpg" class= "img-responsive img-rounded pull-right" style = "height:150px;">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -71,7 +78,21 @@
 				in order to see where it requires improvement and how users use the application. This exercise taught me a lot about professional 
 				reports and working independently, as well as collecting surveys from real world users.
 				</br>
-				<a href="SurveyReport.pdf" name="survey">Survey Report</a>
+				<div class="row">
+					<div class="col-md-5"></div>
+					<div class="col-md-2">
+						<a href="SurveyReport.pdf" class="thumbnail">
+							<img src="SurveyThumbnail.png" alt="Survey Report Thumbnail">
+							<div class="caption">
+								<h4 class = "text-center">
+									Survey Report
+								</h4>
+							</div>
+						</a>
+						
+					</div>
+					<div class="col-md-5"></div>
+				</div>
 			</p>
 		</div>
 		
@@ -79,8 +100,8 @@
   
 	<nav aria-label="...">
 	  <ul class="pager">
-		<li><a href="junior.html">Junior Year</a></li>
-		<li><a href="supersenior.html">Senior +1 Year</a></li>
+		<li><a href="junior.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>	Junior Year</a></li>
+		<li><a href="supersenior.html">Senior +1 Year	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
 	  </ul>
 	</nav>
   
